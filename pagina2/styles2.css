@@ -1,0 +1,459 @@
+
+
+body{
+    display: grid;
+justify-content: center;
+
+
+}
+
+.barranav{
+display: flex;
+justify-content: space-around;
+gap: 90px;
+}
+.W {
+    width: 420px;
+display: flex;
+}
+
+.Enlaces{
+display: flex;
+gap: 40px;
+align-items: center;
+justify-content: center;
+width: 240px;
+height: 80px;
+}
+.Enlaces a{
+text-decoration: none;
+color: black;
+
+}
+.medio{ 
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.izquierda img{
+ padding: 10px 80px;
+height: 240px;
+width: 660px;
+
+
+}
+.textos{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 80px;
+
+}
+.textizqui{
+
+font-size: large;
+
+}
+.textdere p{
+font-size: medium;
+
+
+}
+
+.textdere button{
+    background-color: rgb(230, 50, 50);
+height: 30px;
+width: 120px;
+cursor: pointer;
+}
+button:hover{
+    background: white;
+}
+.derecha{
+background-color: black;
+color: azure;
+height: 400px;
+padding: 10px;
+
+
+}
+.medioderecha{
+border-top: 2px solid gray;
+
+
+}
+.medioderecha p{
+
+color: gray;
+
+}
+.arriba p{
+
+    color: gray;
+    
+    }
+    .abajo p{
+
+        color: gray;
+        
+        }
+.abajo{
+
+    border-top: 2px solid gray;
+
+
+}
+.arriba h1{
+color: goldenrod;
+
+
+}
+.links{
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.imgiz img{
+width: 80px;
+height: 125px;
+
+}
+
+.abajoizquierda{
+display: flex;
+gap: 20px;
+width: 284px;
+height: 160px;
+
+justify-content: center;
+align-items: center;
+}
+.text{
+
+    font-size: medium;
+    
+}
+.text a{
+
+    text-decoration: none;
+}
+.text h1{
+
+color: goldenrod;
+
+
+}
+.text h4{
+
+color: black;
+
+}
+.text p{
+
+color: gray;
+
+}
+.abajomedio{
+gap: 20px;
+    display: flex;
+    width: 284px;
+     height: 160px;
+     justify-content: center;
+      align-items: center;
+}
+.imgmedio img{
+    width: 80px;
+    height: 125px;
+    
+    }
+.textmedio{
+
+font-size: medium;
+
+}
+.textmedio a{
+
+    text-decoration: none;
+}
+.textmedio h1{
+
+    color: goldenrod;
+    
+    
+    }
+    .textmedio h4{
+    
+    color: black;
+    
+    }
+    .textmedio p{
+    
+    color: gray;
+    
+    }
+    .abajoderecha{
+gap: 20px;
+        display: flex;
+        width: 284px;
+         height: 160px;
+         justify-content: center;
+          align-items: center;
+    }
+    .imgderecha img{
+        width: 80px;
+        height: 125px;
+       
+        }
+    .textderecha{
+    
+    font-size: medium;
+    
+    }
+    .textderecha a{
+    
+        text-decoration: none;
+    }
+    .textderecha h1{
+    
+        color: goldenrod;
+        
+        
+        }
+        .textderecha h4{
+        
+        color: black;
+        
+        }
+        .textderecha p{
+        
+        color: gray;
+        
+        }
+        .links img{
+cursor: pointer;
+
+
+        }
+    
+ @media (max-width:500px){
+            body{
+              width: 96%;
+                display: flex;
+                flex-direction: column;
+                background-color: black;
+                justify-content: center;
+                align-items: center;
+
+            }
+        
+            .derecha{
+background-color: blueviolet;
+
+            }
+       
+        .medio{
+display: flex;
+flex-direction: column;
+max-width: 500px;
+
+        }
+        .links{
+flex-direction: column;
+
+        }
+        .textderecha h4{
+
+            color:aliceblue;
+        }
+        .text h4{
+color: aliceblue;
+
+        }
+        .textmedio h4{
+
+color: aliceblue;
+
+        }
+        .textos{
+display: flex;
+flex-direction: column;
+color: white;
+gap: 0px;
+        }
+        .medio img{
+width: 300px;
+height: 200px;
+align-items: center;
+        }
+        .izquierda{
+
+            height: 534px;
+            gap: 0px;
+            display: flex;
+            flex-direction: column;
+        }
+        .textdere{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .textdere p{
+
+font-size: x-small;
+
+        }
+        .derecha{
+            max-width: 500px;
+gap: 20px;
+
+        }
+        
+        .W{
+            max-width: 500px;
+            justify-content: center;
+            align-items: center;
+            color: white;           
+        }
+        .barranav{
+align-items: center;
+justify-content: center;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+        }
+        .Enlaces a{
+color: white;
+
+
+        }
+        .Enlaces{
+gap:15px
+
+
+        }
+        .derecha p{
+color: black;
+
+        }
+        
+    }
+    
+   @media(min-width:768px)and (max-width:1024px){
+    body{
+        width: 98%;
+background-color:blueviolet;
+    }
+
+
+.medio{
+    align-items: center;
+    justify-content: center;
+    WIDTH: 899px;
+
+}
+.izquierda{
+
+    width: 550px;
+}
+.izquierda img{
+    width: 427px;
+
+}
+.derecha h4,p,h1{
+
+    font-size: medium;
+}
+.textos h1{
+
+font-size: medium;
+
+}
+.textos p{
+
+    font-size: small;
+}
+
+.textos{
+    width: 597px;
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+
+
+}
+.derecha h1,h4,p{
+font-size: small;
+
+}
+.derecha{
+    height: 345px;
+    width: 223px;
+
+
+}
+.barranav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    width: 924px;
+
+}
+
+
+.textos button{
+
+    width: 90px;
+    height: 20px;
+    font-size: xx-small;
+    background-color: aqua;
+
+}
+.W{
+
+
+    width: 336px;
+}
+.Enlaces{
+
+    justify-content: center;
+        width: 323px;
+}
+.links img{
+    height: 60px;
+    width: 35px;
+}
+.links{
+    padding: 20px;
+    width: 968px;
+    gap: 0px;
+   }
+   .links h1,h4,p{
+font-size: x-small;
+
+
+   }
+.abajoizquierda{
+
+    gap: 5px;
+}
+.abajomedio{
+
+    gap: 5px;
+}
+.abajoderecha{
+    gap: 5px;
+
+
+}
+.links p{
+
+color: aliceblue;
+
+}
+
+   }
+   
